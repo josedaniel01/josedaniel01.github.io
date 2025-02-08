@@ -1,19 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
-body a{
+body a {
     text-decoration: none;
     color: #f7f7f7
 }
-.navbar{
+
+/*navbar*/
+
+.navbar {
     background-color: #006AEA;
     padding: 25px 10px;
     display: flex;
@@ -22,19 +25,83 @@ body a{
     justify-content: space-between;
 }
 
-.title{
+.title {
     font-weight: bolder;
 }
 
-.nav-menu{
+.nav-menu {
     /*border: 1px solid #fff;*/
 }
-.nav-option{
-   /* border: 1px solid #fff;*/
+
+.nav-option {
+    /* border: 1px solid #fff;*/
     padding: 10px;
 }
 
-.nav-option:hover{
+.nav-option:hover {
     color: #002e66;
     border-bottom: 3px solid #002e66;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section-left {
+    margin-top: 10vw;
+    width: 50%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-right {
+    width: 50%;
+    margin-top: 10vw;
+}
+
+.section-right h1 {
+    font-size: 40px;
+    margin-bottom: 5vw;
+    color: #006AEA;
+}
+
+.section-right div{
+    width: 90%;
+}
+
+.main-img {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.section-left h2{
+   font-size: 45px;
+   color: #232323;
+}
+
+.section-left h4, p{
+  color:#232323;
+  margin: 10px 0;
+}
+
+.section-left h4{
+    border-bottom: 3px solid #006AEA;
+    font-size: 18px;
+}
+
+.button-landing{
+    background-color: #006AEA;
+    border: none;
+    padding: 15px;
+}
+
+.button-landing a{
+    padding: 15px;
 }

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body a{
+    text-decoration: none;
+    color: #f7f7f7
+}
+.navbar{
+    background-color: #006AEA;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: bolder;
+}
+
+.nav-menu{
+    /*border: 1px solid #fff;*/
+}
+.nav-option{
+   /* border: 1px solid #fff;*/
+    padding: 10px;
+}
+
+.nav-option:hover{
+    color: #002e66;
+    border-bottom: 3px solid #002e66;
+}

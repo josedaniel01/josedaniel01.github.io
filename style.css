@@ -16,6 +16,10 @@ body a {
 
 /*navbar*/
 
+.active{
+    background-color: #005ccc;
+}
+
 .navbar {
     background-color: #006AEA;
     padding: 25px 10px;
@@ -27,10 +31,12 @@ body a {
 
 .title {
     font-weight: bolder;
+    padding-left: 10%;
 }
 
 .nav-menu {
     /*border: 1px solid #fff;*/
+    padding-right: 10%;
 }
 
 .nav-option {
@@ -41,6 +47,7 @@ body a {
 .nav-option:hover {
     color: #002e66;
     border-bottom: 3px solid #002e66;
+    background-color: transparent !important;
 }
 
 /*main*/

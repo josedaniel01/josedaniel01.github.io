@@ -112,3 +112,25 @@ body a {
 .button-landing a{
     padding: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .section-left, .section-right{
+        width: 100%;
+    }
+    .section-right {
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        font-weight: bolder;
+        padding-left: 0;
+        padding-bottom: 5%;
+    }
+    .nav-menu {
+        padding-right: 0;
+    }
+    
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* START FONTS STYLES*/
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* END FONTS STYLES*/
+
+/* Hide scrollbar for Browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+/* Background Header */
+
+.bg-header {
+  background: #170037;
+  background: linear-gradient(144deg, rgba(23, 0, 55, 1) 0%, rgba(50, 10, 114, 1) 24%, rgba(108, 11, 143, 1) 50%, rgba(84, 0, 89, 1) 78%, rgba(204, 0, 143, 1) 100%);
+  background-position: fixed;
+}
+
+.navbar {
+  transition: all .3s ease-in-out;
+}
+
+/* Bottom Curve Shape for header */
+.custom-shape-divider-bottom-1755870715 {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1755870715 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1755870715 .shape-fill {
+  fill: #f1f5f9;
+}
+
+/*Bottom Waves Shape for header*/
+.custom-shape-divider-bottom-1756224798 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1756224798 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px;
+}
+
+.custom-shape-divider-bottom-1756224798 .shape-fill {
+    fill: #f1f5f9;
+}
+
+
+/* Projects Animation */
+.projects-card {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(100px) scale(0.95);
+  transition: .4s ease-in-out transform, .8s ease-in-out opacity;
+}
+
+.titles {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: .8s ease-in-out all;
+}
+
+.projects-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.18) 0px 0px 0px 1px;
+}
+
+.projects-box h3 {
+  font-weight: 600;
+}
+
+.projects-card.visible,
+.titles.visible {
+  opacity: 1;
+  transform: scale(1) translateX(0);
+}
+
+/* About Me Animation */
+.description {
+  transform: scale(0.7) translateY(10px);
+  transition: .6s ease-in-out all;
+}
+
+.description.visible {
+  transform: scale(1) translateY(0);
+}
+
+ /*Contac-me styles*/
+.form-box{
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(100px) scale(0.95);
+  transition: .8s ease-in-out transform, .8s ease-in-out opacity;
+}
+
+.form-box.visible{
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/*Background gradient for footer*/
+.bg-footer{
+  background: #18003A;
+  background: linear-gradient(144deg, rgba(24, 0, 58, 1) 0%, rgba(50, 10, 114, 1) 100%);
+}
+
+
+/* Custom Shadows */
+.shadow1 {
+  box-shadow: rgba(29, 41, 61, 0.4) -5px 5px, rgba(29, 41, 61, 0.3) -10px 10px, rgba(29, 41, 61, 0.2) -15px 15px, rgba(29, 41, 61, 0.1) -20px 20px, rgba(29, 41, 61, 0.05) -25px 25px;
+}
+
+.shadow2 {
+  box-shadow: rgba(225, 113, 0, 0.4) 0px 5px, rgba(225, 113, 0, 0.3) 0px 10px, rgba(225, 113, 0, 0.2) 0px 15px, rgba(225, 113, 0, 0.1) 0px 20px, rgba(225, 113, 0, 0.05) 0px 25px;
+}
+
+.shadow3 {
+  box-shadow: rgba(225, 113, 0, 0.4) -5px 5px, rgba(225, 113, 0, 0.3) -10px 10px, rgba(225, 113, 0, 0.2) -15px 15px, rgba(225, 41, 0, 0.1) -20px 20px, rgba(225, 113, 0, 0.05) -25px 25px;
+}
+
+.shadow4 {
+  box-shadow: rgba(29, 41, 61, 0.4) 0px 5px, rgba(29, 41, 61, 0.3) 0px 10px, rgba(29, 41, 61, 0.2) 0px 15px, rgba(29, 41, 61, 0.1) 0px 20px, rgba(29, 41, 61, 0.05) 0px 25px;
+}
+
+.shadow5 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.shadow6 {
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 4px 4px -2px;
+}
+
+/* Hover Effect for technologies and tools carousel*/
+.technol {
+  transition: all .2s ease-in-out;
+}
+
+.technol:hover {
+  transform: scale(1.1);
+}
+
+/* Slider Animation for technologies and tools*/
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, #f1f5f9 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  -webkit-animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: calc(250px * 14);
+}
+
+.slider .slide {
+  width: 250px;
+}
+
+
+
+

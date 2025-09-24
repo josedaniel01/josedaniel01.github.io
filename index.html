@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoseDaniel</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/c1ba3b44a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body class="roboto-regular"><!--bg-[url('./assets/img/pattern2.jpg')] bg-fixed bg-size-[25%]-->
+    <!--<div class="w-full h-2 bg-slate-600"></div>-->
+    <div id="header" class="relative flex justify-center bg-header h-screen">
+        <div class="w-[70%] flex flex-col items-center">
+            <nav class="mb-5 pt-2 fixed z-10">
+                <div class="w-full navbar flex justify-center">
+                    <ul class="relative text-white flex w-4xl p-2 text-center">
+                        <a href="">
+                            <li class="p-3 rounded-4xl hover:bg-neutral-900 transition duration-200 ease-in-out">Home
+                            </li>
+                        </a>
+                        <a href="#aboutMe">
+                            <li class="p-3 rounded-4xl hover:bg-neutral-900 transition duration-200 ease-in-out">About
+                                me</li>
+                        </a>
+                        <a href="#projects">
+                            <li class="p-3 rounded-4xl hover:bg-neutral-900 transition duration-200 ease-in-out">
+                                Projects</li>
+                        </a>
+                        <a href="#contactMe">
+                            <li class="p-3 rounded-4xl hover:bg-neutral-900 transition duration-200 ease-in-out">Contact
+                            </li>
+                        </a>
+                        <li
+                            class="absolute right-4  w-12 h-12 rounded-full overflow-hidden bg-[url('./assets/img/photo1.jpg')] bg-size-[auto_50px] bg-center object-cover">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="w-[70%] h-[70%] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] flex justify-center mt-4">
+                <div class="flex flex-row justify-between items-center text-white w-full h-full">
+                    <div class="w-[50%]  flex items-center">
+                        <div class="w-[60%]">
+                            <div class="mb-4">
+                                <h1 id="demo1" class="text-8xl font-semibold h-25"></h1>
+                                <h1 id="demo2" class="text-6xl font-semibold h-15"></h1>
+                            </div>
+                            <div class="mb-5 text-justify">
+                                <p>I am Jose Daniel, a passionate junior web developer who is creative and curious about
+                                    interactive and
+                                    modern web designs.</p>
+                            </div>
+                            <div>
+                                <button
+                                    class="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-slate-100 rounded-md hover:bg-white group py-3 px-6">
+                                    <span
+                                        class="w-56 h-48 rounded-md bg-amber-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                    <span
+                                        class="relative w-full text-left text-gray-600 transition-colors duration-300 ease-in-out group-hover:text-white">View
+                                        my work</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[50%] h-[80%] flex justify-end overflow-hidden">
+                        <img class="h-full"  src="assets/img/bg2.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="custom-shape-divider-bottom-1755870715">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>-->
+    <div class="custom-shape-divider-bottom-1756224798">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+    </div>
+    <div id="aboutMe" class="flex justify-center bg-slate-100 text-zinc-600">
+        <div class="flex flex-col w-[70%]">
+            <div class="titles">
+                <h2 class=" text-8xl mt-20 p-4 text-center bebas-neue-regular">About Me</h2>
+            </div>
+            <div class="description ">
+                <p class="text-justify text-xl">Hi! I'm a Computer Science student and self-taught frontend developer
+                    with a passion for creating clean,
+                    responsive, and interactive web experiences. I work mainly with HTML, CSS, JavaScript, Angular, and
+                    modern
+                    tools like TailwindCSS, Bootstrap, and SASS, always aiming for minimalist yet engaging designs. My
+                    strengths
+                    are problem-solving, adaptability, and fast learning, which help me grow with every project I take
+                    on. My goal
+                    is to work as a frontend developer where I can combine pro gramming with UI/UX design to deliver
+                    both
+                    functionality and great user experiences.</p>
+            </div>
+            <div class="tech-and-tools mb-20 mt-10">
+                <div class="flex flex-row items-center">
+                    <hr class="inline-block w-1/3 border-t-1 border-slate-300 mt-10">
+                    <h3 class="w-1/3 text-2xl mt-10 text-center font-medium 2xl:text-3xl">Technologies and Tools</h3>
+                    <hr class="inline-block w-1/3 border-t-1 border-slate-300 mt-10">
+                </div>
+                <div class="flex justify-between items-center flex-wrap mt-10 slider">
+                    <div class="slide-track">
+                        <div class="slide technol p-2"><!--technol is a abbreviation for technologies-->
+                            <img src="./assets/img/html.svg" alt="HTML" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/css.svg" alt="CSS" class="w-20 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/angular.svg" alt="Angular" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/sass.svg" alt="SASS" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/html.svg" alt="HTML" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/css.svg" alt="CSS" class="w-20 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/angular.svg" alt="Angular" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-25 h-auto">
+                        </div>
+                        <div class="slide technol p-2">
+                            <img src="./assets/img/sass.svg" alt="SASS" class="w-25 h-auto">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="flex flex-col items-center bg-slate-50 text-zinc-600">
+        <div class="titles">
+            <h2 class=" text-8xl mt-20 p-4 text-center bebas-neue-regular">Projects</h2>
+        </div>
+        <div class="w-[70%] flex flex-row flex-wrap justify-center projects-box mb-15">
+            <!--<hr class="border-slate-300 mb-10">-->
+            <div class="2xl:w-[70%] flex flex-col justify-center m-5 projects-card right shadow5 rounded-md bg-white ">
+                <div class="w-full h-100 rounded-md overflow-hidden">
+                    <img class="w-full h-full rounded-md object-cover hover:scale-120 transiton duration-200 ease-in-out"
+                        src="assets/img/default.jpg" alt="">
+                </div>
+                <div class="w-full p-6">
+                    <div class="">
+                        <h3 class="text-xl">Calculator</h3>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu
+                            fugiat nulla pariatur.</p>
+                        <button
+                            class="cursor-pointer group relative inline-flex py-4 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-purple-500 to-purple-400 px-6 text-white duration-500 mt-5 active:scale-95 shadow-lg shadow-purple-500/30">
+                            <div
+                                class="translate-x-0 opacity-100 transition group-hover:-translate-x-[150%] group-hover:opacity-0">
+                                View Project
+                            </div>
+                            <div
+                                class="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+                                <i class="fa-solid fa-arrow-right"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="2xl:w-[70%] flex flex-col justify-center m-5 projects-card right shadow5 rounded-md bg-white ">
+                <div class="w-full h-100 rounded-md overflow-hidden">
+                    <img class="w-full h-full rounded-md object-cover hover:scale-120 transiton duration-200 ease-in-out"
+                        src="assets/img/default.jpg" alt="">
+                </div>
+                <div class="w-full p-6">
+                    <div class="">
+                        <h3 class="text-xl">Wheater web app</h3>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu
+                            fugiat nulla pariatur.</p>
+                        <button
+                            class="cursor-pointer group relative inline-flex py-4 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-purple-500 to-purple-400 px-6 text-white duration-500 mt-5 active:scale-95 shadow-lg shadow-purple-500/30">
+                            <div
+                                class="translate-x-0 opacity-100 transition group-hover:-translate-x-[150%] group-hover:opacity-0">
+                                View Project
+                            </div>
+                            <div
+                                class="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+                                <i class="fa-solid fa-arrow-right"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="2xl:w-[70%] flex flex-col justify-center m-5 projects-card right shadow5 rounded-md bg-white ">
+                <div class="w-full h-100 rounded-md overflow-hidden">
+                    <img class="w-full h-full rounded-md object-cover hover:scale-120 transiton duration-200 ease-in-out"
+                        src="assets/img/default.jpg" alt="">
+                </div>
+                <div class="w-full p-6">
+                    <div class="">
+                        <h3 class="text-xl">E-commerce web page</h3>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu
+                            fugiat nulla pariatur.</p>
+                        <button
+                            class="cursor-pointer group relative inline-flex py-4 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-purple-500 to-purple-400 px-6 text-white duration-500 mt-5 active:scale-95 shadow-lg shadow-purple-500/30">
+                            <div
+                                class="translate-x-0 opacity-100 transition group-hover:-translate-x-[150%] group-hover:opacity-0">
+                                View Project
+                            </div>
+                            <div
+                                class="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+                                <i class="fa-solid fa-arrow-right"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="2xl:w-[70%] flex flex-col justify-center m-5 projects-card right shadow5 rounded-md bg-white ">
+                <div class="w-full h-[100%] rounded-md overflow-hidden">
+                    <img class="w-full h-full rounded-md object-cover hover:scale-105 transiton duration-500 linear"
+                        src="assets/img/moka-project.jpg" alt="">
+                </div>
+                <div class="w-full p-6">
+                    <div class="">
+                        <h3 class="text-xl">Veterinary-hotel web app</h3>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu
+                            fugiat nulla pariatur.</p>
+                        <button
+                            class="cursor-pointer group relative inline-flex py-4 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-purple-500 to-purple-400 px-6 text-white duration-500 mt-5 active:scale-95 shadow-lg shadow-purple-500/30">
+                            <div
+                                class="translate-x-0 opacity-100 transition group-hover:-translate-x-[150%] group-hover:opacity-0">
+                                View Project
+                            </div>
+                            <div
+                                class="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+                                <i class="fa-solid fa-arrow-right"></i></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactMe" class="flex justify-center bg-slate-100 text-zinc-600">
+        <div class="flex flex-col items-center w-[70%] mt-20 mb-10">
+            <div class="titles">
+                <h2 class=" text-8xl p-4 text-center bebas-neue-regular">Contact Me</h2>
+            </div>
+            <div class="w-full flex flex-col justify-center m-6 shadow5 form-box rounded-md ">
+                <form action="">
+                    <div class="p-10 flex flex-col text-sm bg-white rounded-md">
+                        <label for="" class="font-semibold">Name <b class="text-lg text-red-500">*</b></label>
+                        <input type="text" name="" id=""
+                            class="border border-neutral-200 rounded-md focus:outline focus:outline-purple-500 p-4 mt-1 mb-3"
+                            placeholder="Your name" required>
+                        <label for="" class="font-semibold">Email <b class="text-lg text-red-500">*</b></label>
+                        <input type="email" name="" id=""
+                            class="border border-neutral-200 rounded-md focus:outline focus:outline-purple-500 p-4 mt-1 mb-3"
+                            placeholder="John@doe.com" required>
+                        <label for="" class="font-semibold">Message <b class="text-lg text-red-500">*</b></label>
+                        <textarea name="" id="" rows="5"
+                            class="border border-neutral-200 rounded-md focus:outline focus:outline-purple-500 p-2 mt-1 mb-3 resize-none"
+                            placeholder="Write your messager for me here..." required></textarea>
+                        <div class="self-end">
+                            <button
+                                class="cursor-pointer btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-slate-100 rounded-md hover:bg-white group py-4 px-10">
+                                <span
+                                    class="w-56 h-48 rounded-md bg-gradient-to-r from-purple-500 to-purple-300 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                <span
+                                    class="relative w-full text-left text-gray-600 transition-colors duration-300 ease-in-out group-hover:text-white">Send
+                                    <i class="fa-regular fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <p class="text-xl">Or contact me with...</p>
+            <div class="flex text-4xl mt-4">
+                <div
+                    class="flex items-center justify-center w-15 h-15 mx-4 rounded-full bg-white hover:bg-blue-800 hover:scale-105 hover:text-white transition duration-200 ease-in-out">
+                    <i class="fa-brands fa-linkedin"></i></div>
+                <div
+                    class="flex items-center justify-center w-15 h-15 mx-4 rounded-full bg-white hover:bg-gradient-to-tr hover:from-blue-600 hover:via-fuchsia-600 hover:to-rose-500 hover:scale-105 hover:text-white transition duration-200 ease-in-out">
+                    <i class="fa-brands fa-instagram"></i></div>
+                <div
+                    class="flex items-center justify-center w-15 h-15 mx-4 rounded-full bg-white hover:bg-neutral-950 hover:scale-105 hover:text-white transition duration-200 ease-in-out">
+                    <i class="fa-brands fa-github"></i></div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="custom-shape-divider-top-1755922613">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>-->
+    <footer id="footer" class="flex justify-center bg-header">
+        <div class="flex justify-center items-center w-[70%] h-10">
+            <p class="text-white">&#xA9 <span class="yearFooter"></span> Jose Daniel Jimenez. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const date = new Date();
+        document.querySelector('.yearFooter').innerHTML = date.getFullYear();
+    </script>
+    <script src="assets/js/Observer.js"></script>
+    <script src="assets/js/consoleEffect.js"></script>
+</body>
+
+</html>

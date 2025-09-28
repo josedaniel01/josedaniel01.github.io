@@ -8,15 +8,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/c1ba3b44a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="shortcut icon" href="./assets/img/MEMOJI.png" type="image/x-icon">
 </head>
 
-<body class="roboto-regular"><!--bg-[url('./assets/img/pattern2.jpg')] bg-fixed bg-size-[25%]-->
-    <!--<div class="w-full h-2 bg-slate-600"></div>-->
+<body class="roboto-regular">
     <div id="header" class="relative flex justify-center bg-header h-screen">
         <div class="w-[70%] flex flex-col items-center">
-            <nav class="mb-5 pt-2 fixed z-10">
+            <nav class=" w-[50%] mb-5 pt-2 fixed z-10">
                 <div class="w-full navbar flex justify-center">
-                    <ul class="relative text-white flex w-4xl p-2 text-center">
+                    <ul class="relative text-white flex w-full p-2 text-center">
                         <a href="">
                             <li class="p-3 rounded-4xl hover:bg-neutral-900 transition duration-200 ease-in-out">Home
                             </li>
@@ -34,25 +34,25 @@
                             </li>
                         </a>
                         <li
-                            class="absolute right-4  w-12 h-12 rounded-full overflow-hidden bg-[url('./assets/img/photo1.jpg')] bg-size-[auto_50px] bg-center object-cover">
+                            class="absolute right-4 w-12 h-12 rounded-full overflow-hidden bg-[url('./assets/img/photo1.jpg')] bg-size-[auto_50px] bg-center object-cover">
                         </li>
                     </ul>
                 </div>
             </nav>
-            <div class="w-[70%] h-[70%] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] flex justify-center mt-4">
-                <div class="flex flex-row justify-between items-center text-white w-full h-full">
-                    <div class="w-[50%]  flex items-center">
-                        <div class="w-[60%]">
+            <div class="w-[85%] md:w-[70%] h-[70%] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] flex justify-center mt-4">
+                <div class="flex flex-col md:flex-row justify-center md:justify-between items-center text-white w-full h-full">
+                    <div class="md:w-[50%]  flex items-center">
+                        <div class="md:w-[60%] md:text-left text-center">
                             <div class="mb-4">
-                                <h1 id="demo1" class="text-8xl font-semibold h-25"></h1>
-                                <h1 id="demo2" class="text-6xl font-semibold h-15"></h1>
+                                <h1 id="demo1" class="text-6xl md:text-8xl font-semibold h-20"></h1>
+                                <h1 id="demo2" class="text-5xl md:text-6xl font-semibold h-15"></h1>
                             </div>
                             <div class="mb-5 text-justify">
                                 <p>I am Jose Daniel, a passionate junior web developer who is creative and curious about
                                     interactive and
                                     modern web designs.</p>
                             </div>
-                            <div>
+                            <div class="">
                                 <button
                                     class="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-slate-100 rounded-md hover:bg-white group py-3 px-6">
                                     <span
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-[50%] h-[80%] flex justify-end overflow-hidden">
+                   <div class="md:w-[50%] md:h-[80%] flex justify-end overflow-hidden">
                         <img class="h-full"  src="assets/img/bg2.png" alt="">
                     </div>
 
@@ -72,23 +72,25 @@
             </div>
         </div>
     </div>
-    <!--<div class="custom-shape-divider-bottom-1755870715">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
-        </svg>
-    </div>-->
-    <div class="custom-shape-divider-bottom-1756224798">
+    <div class="custom-shape-divider-bottom-1759091974">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+</div>
+    <!--<div class="custom-shape-divider-bottom-1756224798">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
     </svg>
-    </div>
+    </div>-->
     <div id="aboutMe" class="flex justify-center bg-slate-100 text-zinc-600">
-        <div class="flex flex-col w-[70%]">
+        <div class="flex flex-col w-[85%] md:w-[70%]">
             <div class="titles">
-                <h2 class=" text-8xl mt-20 p-4 text-center bebas-neue-regular">About Me</h2>
+                <h2 class="text-6xl md:text-8xl mt-20 p-4 text-center bebas-neue-regular">About Me</h2>
             </div>
             <div class="description ">
-                <p class="text-justify text-xl">Hi! I'm a Computer Science student and self-taught frontend developer
+                <p class="text-justify text-lg md:text-xl">Hi! I'm a Computer Science student and self-taught frontend developer
                     with a passion for creating clean,
                     responsive, and interactive web experiences. I work mainly with HTML, CSS, JavaScript, Angular, and
                     modern
@@ -109,46 +111,46 @@
                 <div class="flex justify-between items-center flex-wrap mt-10 slider">
                     <div class="slide-track">
                         <div class="slide technol p-2"><!--technol is a abbreviation for technologies-->
-                            <img src="./assets/img/html.svg" alt="HTML" class="w-25 h-auto">
+                            <img src="./assets/img/html.svg" alt="HTML" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/css.svg" alt="CSS" class="w-20 h-auto">
+                            <img src="./assets/img/css.svg" alt="CSS" class="w-10 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-25 h-auto">
+                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/angular.svg" alt="Angular" class="w-25 h-auto">
+                            <img src="./assets/img/angular.svg" alt="Angular" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-25 h-auto">
+                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-25 h-auto">
+                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/sass.svg" alt="SASS" class="w-25 h-auto">
+                            <img src="./assets/img/sass.svg" alt="SASS" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/html.svg" alt="HTML" class="w-25 h-auto">
+                            <img src="./assets/img/html.svg" alt="HTML" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/css.svg" alt="CSS" class="w-20 h-auto">
+                            <img src="./assets/img/css.svg" alt="CSS" class="w-10 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-25 h-auto">
+                            <img src="./assets/img/js.svg" alt="JavaScript" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/angular.svg" alt="Angular" class="w-25 h-auto">
+                            <img src="./assets/img/angular.svg" alt="Angular" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-25 h-auto">
+                            <img src="./assets/img/tailwindcss.svg" alt="TailwindCSS" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-25 h-auto">
+                            <img src="./assets/img/bootstrap.svg" alt="Bootstrap" class="w-15 h-auto">
                         </div>
                         <div class="slide technol p-2">
-                            <img src="./assets/img/sass.svg" alt="SASS" class="w-25 h-auto">
+                            <img src="./assets/img/sass.svg" alt="SASS" class="w-15 h-auto">
                         </div>
                     </div>
 
@@ -158,9 +160,9 @@
     </div>
     <div id="projects" class="flex flex-col items-center bg-slate-50 text-zinc-600">
         <div class="titles">
-            <h2 class=" text-8xl mt-20 p-4 text-center bebas-neue-regular">Projects</h2>
+            <h2 class="text-6xl md:text-8xl mt-20 p-4 text-center bebas-neue-regular">Projects</h2>
         </div>
-        <div class="w-[70%] flex flex-row flex-wrap justify-center projects-box mb-15">
+        <div class="w-[95%] md:w-[70%] flex flex-row flex-wrap justify-center projects-box mb-15">
             <!--<hr class="border-slate-300 mb-10">-->
             <div class="2xl:w-[70%] flex flex-col justify-center m-5 projects-card right shadow5 rounded-md bg-white ">
                 <div class="w-full h-100 rounded-md overflow-hidden">
@@ -277,9 +279,9 @@
         </div>
     </div>
     <div id="contactMe" class="flex justify-center bg-slate-100 text-zinc-600">
-        <div class="flex flex-col items-center w-[70%] mt-20 mb-10">
+        <div class="flex flex-col items-center w-[85%] md:w-[70%] mt-20 mb-10">
             <div class="titles">
-                <h2 class=" text-8xl p-4 text-center bebas-neue-regular">Contact Me</h2>
+                <h2 class="text-6xl md:text-8xl p-4 text-center bebas-neue-regular">Contact Me</h2>
             </div>
             <div class="w-full flex flex-col justify-center m-6 shadow5 form-box rounded-md ">
                 <form action="">
@@ -295,7 +297,7 @@
                         <label for="" class="font-semibold">Message <b class="text-lg text-red-500">*</b></label>
                         <textarea name="" id="" rows="5"
                             class="border border-neutral-200 rounded-md focus:outline focus:outline-purple-500 p-2 mt-1 mb-3 resize-none"
-                            placeholder="Write your messager for me here..." required></textarea>
+                            placeholder="Write your message for me here..." required></textarea>
                         <div class="self-end">
                             <button
                                 class="cursor-pointer btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-slate-100 rounded-md hover:bg-white group py-4 px-10">
@@ -329,7 +331,7 @@
         </svg>
     </div>-->
     <footer id="footer" class="flex justify-center bg-header">
-        <div class="flex justify-center items-center w-[70%] h-10">
+        <div class="flex justify-center items-center w-[90%] md:w-[70%] h-10">
             <p class="text-white">&#xA9 <span class="yearFooter"></span> Jose Daniel Jimenez. All rights reserved.</p>
         </div>
     </footer>

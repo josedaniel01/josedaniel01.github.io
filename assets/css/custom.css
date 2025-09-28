@@ -52,7 +52,7 @@ html {
   transition: all .3s ease-in-out;
 }
 
-/* Bottom Curve Shape for header */
+/* Bottom Curve Shape for header *//* 
 .custom-shape-divider-bottom-1755870715 {
   position: absolute;
   bottom: -10px;
@@ -72,9 +72,10 @@ html {
 
 .custom-shape-divider-bottom-1755870715 .shape-fill {
   fill: #f1f5f9;
-}
+}*/
 
 /*Bottom Waves Shape for header*/
+/*
 .custom-shape-divider-bottom-1756224798 {
     position: absolute;
     bottom: 0;
@@ -93,6 +94,27 @@ html {
 
 .custom-shape-divider-bottom-1756224798 .shape-fill {
     fill: #f1f5f9;
+}*/
+
+.custom-shape-divider-bottom-1759091974 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1759091974 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1759091974 .shape-fill {
+    fill: #FFFFFF;
 }
 
 
@@ -107,7 +129,7 @@ html {
 .titles {
   overflow: hidden;
   opacity: 0;
-  transform: translateX(100px);
+  transform: translateY(100px);
   transition: .8s ease-in-out all;
 }
 

@@ -52,49 +52,7 @@ html {
   transition: all .3s ease-in-out;
 }
 
-/* Bottom Curve Shape for header *//* 
-.custom-shape-divider-bottom-1755870715 {
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1755870715 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 80px;
-}
-
-.custom-shape-divider-bottom-1755870715 .shape-fill {
-  fill: #f1f5f9;
-}*/
-
-/*Bottom Waves Shape for header*/
-/*
-.custom-shape-divider-bottom-1756224798 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1756224798 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 61px;
-}
-
-.custom-shape-divider-bottom-1756224798 .shape-fill {
-    fill: #f1f5f9;
-}*/
+/*WAVES DIVIDER*/
 
 .custom-shape-divider-bottom-1759091974 {
     position: absolute;
@@ -114,8 +72,9 @@ html {
 }
 
 .custom-shape-divider-bottom-1759091974 .shape-fill {
-    fill: #FFFFFF;
+    fill: #F1F5F9;
 }
+/*END WAVES DIVIDER*/
 
 
 /* Projects Animation */
@@ -157,7 +116,7 @@ html {
   transform: scale(1) translateY(0);
 }
 
- /*Contac-me styles*/
+ /*Contac-me animation*/
 .form-box{
   overflow: hidden;
   opacity: 0;
@@ -271,6 +230,8 @@ html {
 .slider .slide {
   width: 250px;
 }
+
+/* End Slider Animation for technologies and tools*/
 
 
 

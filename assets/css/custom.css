@@ -43,11 +43,11 @@ html {
 /* Background Header */
 
 .bg-header {
-  /*background: #170037;
+  background: #170037;
   background: linear-gradient(144deg, rgba(23, 0, 55, 1) 0%, rgba(50, 10, 114, 1) 24%, rgba(108, 11, 143, 1) 50%, rgba(84, 0, 89, 1) 78%, rgba(204, 0, 143, 1) 100%);
-  background-position: fixed;*/
-  background-image: url('../img/backgroundGradients/bg12.jpg');
-  background-size: cover;
+  background-position: fixed;
+  /*background-image: url('../img/backgroundGradients/bg12.jpg');
+  background-size: cover;*/
 }
 
 .navbar {
@@ -145,10 +145,10 @@ html {
 }
 
 .technol:hover {
-  transform: scale(1.1);
+  transform: translateY(-5px);
 }
 
-/* Slider Animation for technologies and tools*/
+/* Slider Animation for technologies and tools
 
 @-webkit-keyframes scroll {
   0% {
@@ -212,7 +212,7 @@ html {
 /* End Slider Animation for technologies and tools*/
 
 
-
+/* SVG Shape Bottom for Header */
 .custom-shape-divider-bottom-1759214159 {
     position: absolute;
     bottom: 0;

@@ -60,8 +60,9 @@ html {
   overflow: hidden;
   opacity: 0;
   transform: translateY(100px) scale(0.95);
-  transition: .4s ease-in-out transform, .8s ease-in-out opacity;
+  transition: .8s ease-in-out transform, .8s ease-in-out opacity;
 }
+
 
 .titles {
   overflow: hidden;
@@ -86,8 +87,8 @@ html {
 
 /* About Me Animation */
 .description {
-  transform: scale(0.7) translateY(10px);
-  transition: .6s ease-in-out all;
+  transform: translateY(100px);
+  transition: .5s ease-in-out all;
 }
 
 .description.visible {
@@ -141,7 +142,7 @@ html {
 
 /* Hover Effect for technologies and tools carousel*/
 .technol {
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .technol:hover {

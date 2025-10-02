@@ -55,14 +55,14 @@ window.addEventListener('scroll', function() {
   }else if(scrollPosition < 100){
 	navbar.classList.remove('backdrop-blur-3xl');
   }
-  if(scrollPosition > 600){
+  if(scrollPosition > 700){
 	navUl.classList.remove('text-white');
 	navUl.classList.add('text-zinc-600');
 	navli.forEach(li => {
 		li.classList.add('hover:text-white');
 	});
   }
-  else if(scrollPosition < 600){
+  else if(scrollPosition < 700){
 	navUl.classList.remove('text-zinc-600');
 	navUl.classList.add('text-white');
 	navli.forEach(li => {

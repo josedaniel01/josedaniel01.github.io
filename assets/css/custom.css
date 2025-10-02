@@ -79,7 +79,7 @@ html {
 .projects-card {
   overflow: hidden;
   opacity: 0;
-  transform: translateY(100px) scale(0.5);
+  transform: translateY(100px) scale(0.9);
   transition: .8s ease-in-out transform, .8s ease-in-out opacity;
 }
 

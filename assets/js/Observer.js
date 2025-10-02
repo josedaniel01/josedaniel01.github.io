@@ -2,6 +2,7 @@ const projectboxes = document.querySelectorAll('.projects-card');
 const titleprojects = document.querySelectorAll('.titles');
 const descriptionAboutMe = document.querySelector('.description');
 const contactForm = document.querySelector('.form-box');
+const tecItems = document.querySelectorAll('.technol');
 
 
 const observer = new IntersectionObserver(entries => {
@@ -22,6 +23,10 @@ projectboxes.forEach(project => {
 
 titleprojects.forEach(title =>{
 	observer.observe(title);
+});
+
+tecItems.forEach(tec =>{
+	observer.observe(tec);
 });
 
 observer.observe(descriptionAboutMe);

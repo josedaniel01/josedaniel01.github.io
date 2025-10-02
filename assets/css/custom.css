@@ -55,6 +55,21 @@ html {
 }
 
 
+/*Tec and tools items animation*/
+
+.technol {
+  opacity: 0;
+  transform: translateY(100px) scale(0.1);
+  transition: .8s ease-in-out transform, .8s ease-in-out opacity;
+}
+
+.technol.visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+
+
 /* Projects Animation */
 .projects-card {
   overflow: hidden;
@@ -142,7 +157,7 @@ html {
 
 /* Hover Effect for technologies and tools carousel*/
 .technol {
-  transition: all .5s ease-in-out;
+  
 }
 
 .technol:hover {

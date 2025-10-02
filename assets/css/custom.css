@@ -56,6 +56,9 @@ html {
 
 
 /*Tec and tools items animation*/
+.technolHover{
+  transition: transform .1s ease-in-out;
+}
 
 .technol {
   opacity: 0;
@@ -68,13 +71,15 @@ html {
   transform: scale(1) translateY(0);
 }
 
-
+.technolHover:hover {
+  transform: translateY(-5px);
+}
 
 /* Projects Animation */
 .projects-card {
   overflow: hidden;
   opacity: 0;
-  transform: translateY(100px) scale(0.95);
+  transform: translateY(100px) scale(0.5);
   transition: .8s ease-in-out transform, .8s ease-in-out opacity;
 }
 
@@ -155,14 +160,7 @@ html {
   box-shadow: rgba(0, 0, 0, 0.03) 0px 4px 4px -2px;
 }
 
-/* Hover Effect for technologies and tools carousel*/
-.technol {
-  
-}
 
-.technol:hover {
-  transform: translateY(-5px);
-}
 
 /* Slider Animation for technologies and tools
 

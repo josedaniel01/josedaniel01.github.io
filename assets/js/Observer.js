@@ -9,6 +9,15 @@ const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
 		entry.target.classList.toggle('visible', entry.isIntersecting);
 		if(entry.isIntersecting) observer.unobserve(entry.target);
+
+		if(entry.isIntersecting && entry.target.classList.contains('technol')){
+			entry.target.addEventListener('transitionend', function handler(){
+				entry.target.classList.remove('technol', entry.isIntersecting);
+				entry.target.classList.add('technolHover');
+			})
+			
+		}
+
 	})
 },
 {
@@ -31,6 +40,7 @@ tecItems.forEach(tec =>{
 
 observer.observe(descriptionAboutMe);
 observer.observe(contactForm);
+
 
 
 // Change navbar color on scroll

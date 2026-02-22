@@ -43,11 +43,16 @@ html {
 /* Background Header */
 
 .bg-header {
-  background: #170037;
-  background: linear-gradient(144deg, rgba(23, 0, 55, 1) 0%, rgba(50, 10, 114, 1) 24%, rgba(108, 11, 143, 1) 50%, rgba(84, 0, 89, 1) 78%, rgba(204, 0, 143, 1) 100%);
-  background-position: fixed;
-  /*background-image: url('../img/backgroundGradients/bg12.jpg');
+  background: #2D005F;
+ /* background: linear-gradient(144deg, rgba(23, 0, 55, 1) 0%, rgba(50, 10, 114, 1) 24%, rgba(108, 11, 143, 1) 50%, rgba(84, 0, 89, 1) 78%, rgba(204, 0, 143, 1) 100%);
+  background-position: fixed;*/
+  /*background-image: url('../img/backgroundGradients/bg5.jpg');
   background-size: cover;*/
+background: #2D005F;
+background: -webkit-linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
+background: -moz-linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
+background: linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2D005F", endColorstr="#AF4CFF", GradientType=0);
 }
 
 .navbar {
@@ -162,7 +167,7 @@ html {
 
 
 
-/* Slider Animation for technologies and tools
+/*Slider Animation for technologies and tools*/
 
 @-webkit-keyframes scroll {
   0% {
@@ -216,7 +221,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: calc(250px * 14);
+  width: calc(200px * 14);
 }
 
 .slider .slide {

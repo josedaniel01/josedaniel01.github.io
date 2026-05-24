@@ -73,20 +73,25 @@ html {
   -ms-overflow-style: none;
 }
 
+body{
+background:  radial-gradient(circle at 50% 100%, rgba(58, 175, 169, 0.6) 0%, transparent 60%),
+          radial-gradient(circle at 50% 100%, rgba(255, 140, 0, 0.4) 0%, transparent 70%),
+          radial-gradient(circle at 50% 100%, rgba(238, 130, 238, 0.3) 0%, transparent 80%);
+          position: relative;
+
+
+}
+
 
 /* Background Header */
 
 .bg-header {
-  background: #2D005F;
- /* background: linear-gradient(144deg, rgba(23, 0, 55, 1) 0%, rgba(50, 10, 114, 1) 24%, rgba(108, 11, 143, 1) 50%, rgba(84, 0, 89, 1) 78%, rgba(204, 0, 143, 1) 100%);
-  background-position: fixed;*/
-  /*background-image: url('../img/backgroundGradients/bg5.jpg');
-  background-size: cover;*/
+/*background: #2D005F;
 background: #2D005F;
 background: -webkit-linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
 background: -moz-linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
 background: linear-gradient(142deg, rgba(45, 0, 95, 1) 0%, rgba(175, 76, 255, 1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2D005F", endColorstr="#AF4CFF", GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2D005F", endColorstr="#AF4CFF", GradientType=0);*/
 }
 
 .navbar {
